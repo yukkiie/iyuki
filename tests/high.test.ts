@@ -1,6 +1,6 @@
 import { Iyuki } from '../src/iyuki';
 
-const TEST_ACTIONS = ['alarm', 'airkiss', 'hug', 'kiss', 'slap', 'vtuber', 'catgirl'];
+const TEST_ACTIONS = ['alarm', 'airkiss', 'hug', 'kiss', 'slap', 'vtuber', 'catgirl', 'wink', 'cringe', 'dance', 'poke'];
 
 describe('Iyuki High-Level API', () => {
   const iyuki = new Iyuki({ kawaii: 'anonymous', nekosia: { ip: '123456' } });

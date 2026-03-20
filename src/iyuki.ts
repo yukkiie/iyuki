@@ -2,6 +2,7 @@ import { KawaiiRed } from './apis/kawaiiRed';
 import { OtakuGifs } from './apis/otakuGifs';
 import { NekosBest } from './apis/nekosBest';
 import { Nekosia } from './apis/nekosia';
+import { WaifuPics } from './apis/waifuPics';
 import { API_ACTIONS } from './constants';
 import { ApiWrapper } from './apis/apiWrapper';
 import { IyukiOptions } from './types';
@@ -14,6 +15,7 @@ export class Iyuki {
     this.apis.push(new OtakuGifs());
     this.apis.push(new NekosBest);
     this.apis.push(new Nekosia(options.nekosia));
+    this.apis.push(new WaifuPics());
   }
 
   async fetch(action: string, options?: { id?: string }): Promise<string> {

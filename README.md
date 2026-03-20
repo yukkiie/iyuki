@@ -1,7 +1,7 @@
 
 # Iyuki
 
-Tired of Juggling Multiple between API and writing code for each API and fetching anime GIFs/Picture from Nekosbest, Nekosia, Otakugifs & Kawaiired ? Meet Iyuki, Iyuki will do extra work you just enjoy iyuki.fetch('slap') and enjoy. 
+Tired of Juggling Multiple between API and writing code for each API and fetching anime GIFs/Picture from Nekosbest, Nekosia, Otakugifs, waifupics & Kawaiired ? Meet Iyuki, Iyuki will do extra work you just enjoy iyuki.fetch('slap') and enjoy. 
 
 
 
@@ -9,7 +9,7 @@ Tired of Juggling Multiple between API and writing code for each API and fetchin
 
 ## Features
 
-- Unified API wrapper for Nekos.best, Kawaii.red, Nekosia.cat and Otakugifs.xyz
+- Unified API wrapper for Nekos.best, Kawaii.red, Nekosia.cat and Otakugifs.xyz, waifupics
 - TypeScript-ready with proper typings
 - Handles API differences & quirks internally 
 - Automatically selects a random API when multiple providers support the same action

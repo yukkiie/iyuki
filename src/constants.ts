@@ -15,16 +15,22 @@ export const API_ACTIONS: Record<string, string[]> = {
     "confused","cool","cry","cuddle","dance","drool","evillaugh","facepalm","handhold",
     "happy","headbang","hug","huh","kiss","laugh","lick","love","mad","nervous","no",
     "nom","nosebleed","nuzzle","nyah","pat","peek","pinch","poke","pout","punch","roll",
-    "run","sad","scared","shout","shrug","shy","sigh","sip","slap","sleep","slowclap",
+    "run","sad","scared","shout","shrug", "sing", "shy","sigh","sip","slap","sleep","slowclap",
     "smack","smile","smug","sneeze","sorry","stare","stop","surprised","sweat","thumbsup",
     "tickle","tired","wave","wink","woah","yawn","yay","yes"
   ],
   nekosBest: [
     "neko","waifu","husbando","kitsune","lurk","shoot","sleep","shrug","stare","wave",
-    "poke","smile","peck","wink","blush","smug","tickle","yeet","think","highfive",
+    "poke","smile","peck","wink","blush", "bleh", "blowkiss", "carry", "clap", "confused", "kabedon", "lappillow", "nya", "salute", "sip", "shake", "shocked", "spin", "teehee", "wag",
+    "smug","tickle","yeet","think","highfive", "bonk", "tableflip",
     "feed","bite","bored","nom","yawn","facepalm","cuddle","kick","happy","hug","baka",
     "pat","angry","run","nod","nope","kiss","dance","punch","handshake","slap","cry",
     "pout","handhold","thumbsup","laugh"
+  ],
+  waifuPics: [
+    "waifu", "neko", "shinobu", "megumin", "bully", "cuddle", "cry", "hug", "awoo",
+    "kiss", "lick", "pat", "smug", "bonk", "yeet", "blush", "smile", "wave", "highfive",
+    "handhold", "nom", "bite", "glomp", "slap", "kill", "kick", "happy", "wink", "poke", "dance", "cringe"
   ],
   nekosia: [
     "random","catgirl","foxgirl","wolf-girl","animal-ears","tail","tail-with-ribbon","tail-from-under-skirt",

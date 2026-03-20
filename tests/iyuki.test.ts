@@ -4,7 +4,8 @@ const TEST_ACTIONS = {
   kawaiiRed: ['hug', 'kiss', 'slap'],
   otakuGifs: ['hug', 'kiss', 'slap'],
   nekosBest: ['hug', 'kiss', 'slap', 'poke', 'tickle'],
-  nekosia: ['random', 'catgirl', 'vtuber']
+  nekosia: ['random', 'catgirl', 'vtuber'],
+  waifuPics: ['cringe', 'dance', 'kill', 'poke'],
 };
 
 describe('Iyuki Library', () => {
